@@ -1,0 +1,77 @@
+#container { 
+    display:grid;
+    margin: auto;
+    height:100vh;
+    column-gap: 20px;
+    row-gap: 85px;
+    grid-template-rows: 100px 130px 1fr 100px;
+    width: 200vh;
+    grid-template-areas:
+    'he he he he'
+    'ma ma ma ma'
+    'ma ma ma ma'
+    'fo fo fo fo'
+
+}
+.header {
+display:flex;
+grid-area: he;
+background-color: #3498db;
+justify-content:space-between;
+
+}
+.main {
+grid-area: ma;    
+display:flex;
+flex-direction:column;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+width:100%;
+height: 350px;
+background-color: #3498db;
+border-style: ridge;
+}
+.footer {
+grid-area: fo;
+background-color: #3498db;
+}
+.nav {
+    background-color: blueviolet;
+    width: 40vh;
+    height: 10vh;
+    border-style: ridge;
+    nav-right: auto;
+}
+.card1 {
+    background-color: black;
+width:300px;
+height:155px;
+ border-style: ridge;
+}
+.card2 {
+    background-color: black;
+width:300px;
+height:155px;
+border-style: ridge;
+}.card3 {
+    background-color: black;
+width:300px;
+height:155px;
+border-style: ridge;
+}.card4 {
+    background-color: black;
+width:300px;
+height:155px;
+border-style: ridge;
+}.card5 {
+    background-color: black;
+width:300px;
+height:155px;
+border-style: ridge;
+}.card6 {
+    background-color: black;
+width:300px;
+height:155px;
+border-style: ridge;
+}
