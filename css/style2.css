@@ -43,6 +43,14 @@ background-color: #3498db;
     border-style: ridge;
     nav-right: auto;
 }
+
+div.main img {
+    width: 100%;
+}
+div.main div {
+    overflow-y: hidden;
+}
+
 .card1 {
     background-color: black;
 width:300px;
@@ -51,10 +59,11 @@ height:155px;
 }
 .card2 {
     background-color: black;
-width:300px;
-height:155px;
-border-style: ridge;
-}.card3 {
+    width:300px;
+    height:155px;
+    border-style: ridge;
+}
+.card3 {
     background-color: black;
 width:300px;
 height:155px;

@@ -1,5 +1,6 @@
 #container { 
     background-image: url(../img/nepal.jpg);
+    
     background-repeat:round;
     display:grid;
     margin: auto;
