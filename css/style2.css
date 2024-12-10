@@ -18,8 +18,8 @@ display:flex;
 grid-area: he;
 background-color: #3498db;
 justify-content:space-between;
-
 }
+
 .main {
 grid-area: ma;    
 display:flex;
@@ -32,18 +32,25 @@ height: 350px;
 background-color: #3498db;
 border-style: ridge;
 }
-.footer {
-grid-area: fo;
-background-color: #3498db;
-}
+
 .nav {
     background-color: blueviolet;
     width: 40vh;
     height: 10vh;
+    display:flex;
     border-style: ridge;
     nav-right: auto;
 }
-
+.nav a{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav a:hover{
+background-color: aqua;
+color: #3498db;
+}
 div.main img {
     width: 100%;
 }
@@ -68,18 +75,21 @@ height:155px;
 width:300px;
 height:155px;
 border-style: ridge;
-}.card4 {
+}
+.card4 {
     background-color: black;
 width:300px;
 height:155px;
 border-style: ridge;
-}.card5 {
+}
+.card5 {
     background-color: black;
 width:300px;
 height:155px;
 border-style: ridge;
-}.card6 {
-    background-color: black;
+}
+.card6 {
+    background-color:#3498db;
 width:300px;
 height:155px;
 border-style: ridge;
