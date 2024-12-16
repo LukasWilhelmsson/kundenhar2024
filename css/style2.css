@@ -34,7 +34,7 @@ border-style: ridge;
 }
 
 .nav {
-    background-color: blueviolet;
+    background-color: rgb(43, 202, 226);
     width: 40vh;
     height: 10vh;
     display:flex;
